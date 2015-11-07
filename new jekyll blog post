@@ -1,0 +1,5 @@
+# Create a new Jekyll blog post
+function blogpost() {
+  today=$(date +%Y-%m-%d);
+  touch $today-$@".md"
+}
